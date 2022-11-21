@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ezgif.swift
 //
-//  Created by eyrecoffee@163.com on 11/22/2022.
-//  Copyright (c) 2022 eyrecoffee@163.com. All rights reserved.
+//  Created by EyreFree on 11/22/2022.
+//  Copyright (c) 2022 EyreFree. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 

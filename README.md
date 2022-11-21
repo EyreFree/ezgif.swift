@@ -1,6 +1,6 @@
 # ezgif.swift
 
-[![CI Status](https://img.shields.io/travis/eyrecoffee@163.com/ezgif.swift.svg?style=flat)](https://travis-ci.org/eyrecoffee@163.com/ezgif.swift)
+[![CI Status](https://img.shields.io/travis/eyrefree/ezgif.swift.svg?style=flat)](https://travis-ci.org/eyrefree/ezgif.swift)
 [![Version](https://img.shields.io/cocoapods/v/ezgif.swift.svg?style=flat)](https://cocoapods.org/pods/ezgif.swift)
 [![License](https://img.shields.io/cocoapods/l/ezgif.swift.svg?style=flat)](https://cocoapods.org/pods/ezgif.swift)
 [![Platform](https://img.shields.io/cocoapods/p/ezgif.swift.svg?style=flat)](https://cocoapods.org/pods/ezgif.swift)
@@ -20,9 +20,22 @@ it, simply add the following line to your Podfile:
 pod 'ezgif.swift'
 ```
 
+## Usage
+
+```swift
+let imageTodoUrl: String = "https://img.zcool.cn/community/01639c586c91bba801219c77f6efc8.gif"
+Ezgif.shared.optimize(imageUrl: imageTodoUrl) { newFileUrl, error in
+    if let error = error {
+        printLog("Ezgif.shared.optimize error: \(error.localizedDescription)")
+    } else {
+        printLog("Ezgif.shared.optimize newFileUrl: \(newFileUrl ?? "")")
+    }
+}
+```
+
 ## Author
 
-eyrecoffee@163.com, eyrefree@eyrefree.org
+EyreFree, eyrefree@eyrefree.org
 
 ## License
 

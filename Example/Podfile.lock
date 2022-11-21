@@ -1,16 +1,25 @@
 PODS:
-  - ezgif.swift (0.1.0)
+  - EFFoundation (1.5.2):
+    - EFFoundation/Core (= 1.5.2)
+  - EFFoundation/Core (1.5.2)
+  - ezgif (1.0.0):
+    - EFFoundation (~> 1.5.2)
 
 DEPENDENCIES:
-  - ezgif.swift (from `../`)
+  - ezgif (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - EFFoundation
 
 EXTERNAL SOURCES:
-  ezgif.swift:
+  ezgif:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ezgif.swift: 89505ae4d0fac24fae7316b521a2ee4e5a5c73ad
+  EFFoundation: 75ebf4a2d4c185eb24c110fbdb0809c15f85c94f
+  ezgif: 7057e078ef978c6008c5c2fc55077c9bd913238d
 
-PODFILE CHECKSUM: 8106589e7bfda3e838694abea7333e380c2120e7
+PODFILE CHECKSUM: b2abd59e5f18ccf921ac11e3102a73810a44922f
 
 COCOAPODS: 1.11.3
