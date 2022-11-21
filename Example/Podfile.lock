@@ -1,0 +1,16 @@
+PODS:
+  - ezgif.swift (0.1.0)
+
+DEPENDENCIES:
+  - ezgif.swift (from `../`)
+
+EXTERNAL SOURCES:
+  ezgif.swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ezgif.swift: 89505ae4d0fac24fae7316b521a2ee4e5a5c73ad
+
+PODFILE CHECKSUM: 8106589e7bfda3e838694abea7333e380c2120e7
+
+COCOAPODS: 1.11.3
