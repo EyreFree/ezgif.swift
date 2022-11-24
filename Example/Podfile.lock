@@ -2,7 +2,7 @@ PODS:
   - EFFoundation (1.5.2):
     - EFFoundation/Core (= 1.5.2)
   - EFFoundation/Core (1.5.2)
-  - ezgif (1.0.0):
+  - ezgif (1.0.1):
     - EFFoundation (~> 1.5.2)
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EFFoundation: 75ebf4a2d4c185eb24c110fbdb0809c15f85c94f
-  ezgif: 7057e078ef978c6008c5c2fc55077c9bd913238d
+  ezgif: 0278d8884d9b33f1423505fc9474f7c0f409f9bc
 
 PODFILE CHECKSUM: b2abd59e5f18ccf921ac11e3102a73810a44922f
 

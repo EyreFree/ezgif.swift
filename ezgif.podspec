@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ezgif'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Use ezgif.com in swift.'
 
   s.description      = <<-DESC
