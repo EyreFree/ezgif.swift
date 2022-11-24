@@ -1,9 +1,9 @@
 # ezgif.swift
 
-[![CI Status](https://img.shields.io/travis/eyrefree/ezgif.swift.svg?style=flat)](https://travis-ci.org/eyrefree/ezgif.swift)
-[![Version](https://img.shields.io/cocoapods/v/ezgif.swift.svg?style=flat)](https://cocoapods.org/pods/ezgif.swift)
-[![License](https://img.shields.io/cocoapods/l/ezgif.swift.svg?style=flat)](https://cocoapods.org/pods/ezgif.swift)
-[![Platform](https://img.shields.io/cocoapods/p/ezgif.swift.svg?style=flat)](https://cocoapods.org/pods/ezgif.swift)
+[![CI Status](https://img.shields.io/travis/eyrefree/ezgif.svg?style=flat)](https://travis-ci.org/eyrefree/ezgif)
+[![Version](https://img.shields.io/cocoapods/v/ezgif.svg?style=flat)](https://cocoapods.org/pods/ezgif)
+[![License](https://img.shields.io/cocoapods/l/ezgif.svg?style=flat)](https://cocoapods.org/pods/ezgif)
+[![Platform](https://img.shields.io/cocoapods/p/ezgif.svg?style=flat)](https://cocoapods.org/pods/ezgif)
 
 ## Example
 
@@ -17,7 +17,7 @@ ezgif.swift is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ezgif.swift'
+pod 'ezgif'
 ```
 
 ## Usage
